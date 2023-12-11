@@ -1,0 +1,47 @@
+.input-form{
+    min-width: 95%;
+    max-width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    outline: 0;
+    color: none;
+    padding: 5px;
+}
+.input-form:focus{
+    outline: 0;
+    border-bottom: 1.5px solid rgb(255, 191, 0);
+    transition: border-bottom-color 0.3s ease-out; 
+}
+.input-form::placeholder{
+    color: black;
+}
+.form-title{
+    color: rgb(16, 16, 39);
+}
+.btn-form{
+    background-color: rgb(16, 16, 39);
+    border-radius: 2px;
+    font-weight: 400;
+}
+.btn-form:hover{
+    background-color: rgb(255, 191, 0);
+    border-color: rgb(255, 191, 0);
+    color: black;
+    transition: background-color 0.25s ease-out;
+}
+.link{
+    color: rgb(0, 26, 58);
+    text-decoration: none;
+}
+.login-form{
+    min-width: 40%;
+}
+.regis-form{
+    min-width: 40%;
+}
+@media screen and(width< 600px) {
+    .card{
+        width: 70%;
+    }
+}
